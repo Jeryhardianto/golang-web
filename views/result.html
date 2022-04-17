@@ -1,0 +1,15 @@
+{{ template "layout" . }}{{ define "main" }}
+
+<div class="row">
+
+    <div class="col">
+        <div class="card mb-3" style="width: 18rem;">
+            <img src="https://source.unsplash.com/random/100x100" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <h5 class="card-title">{{ .ID }}</h5> -->
+                <h5 class="card-title">{{ .name }}</h5>
+                <h5 class="card-title">{{ .pesan }}</h5>
+            </div>
+        </div>
+    </div>
+</div> {{ end }}
